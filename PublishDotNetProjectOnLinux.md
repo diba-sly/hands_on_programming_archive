@@ -1,9 +1,9 @@
-## انتشار برای اولین بار
+# انتشار برای اولین بار
 
 1. آخرین تغییرات را دریافت می کنیم. بر روی آدرس مورد نظر می رویم و پروژه را clone می کنیم:
 ```
-cd /home/fatemeh.salehiyeh/
-sudo git clone https://gitlab.partdp.ir/digitalSignature/dotnet/services/dss-dotnet.git --branch 1.3.0 dss-dotnet-new
+cd /home/diba.sly/
+sudo git clone https://uri.gitlabl/folder1/services/my-project.git --branch 1.3.0 project-folder
 ```
 2. به روش زیر در مسیر مورد نظر پابلیش مورد نظر را می سازیم:
 
@@ -15,7 +15,7 @@ dotnet publish -c release -o <path>
 
 **روش اول:**
 ```
-pm2 start "dotnet PartServiceDSS.dll --urls http://0.0.0.0:90 --name DSS3:90"
+pm2 start "dotnet my-project.dll --urls http://0.0.0.0:90 --name MyProjectName:90"
 ```
 
 **روش دوم:**
@@ -51,11 +51,11 @@ pm2 start ecosystem.config.js
 
 ```
 
-## آپدیت پروژه
+# آپدیت پروژه
 
 1. آخرین تغییرات را دریافت می کنیم. بر روی آدرس مورد نظر آخرین تغییرات را pull می کنیم:
 ```
-cd /home/fatemeh.salehiyeh/dss-dotnet-new#
+cd /home/diba.sly/project-folder#
 sudo git pull
 sudo git checkout <tag>
 sudo git pull
