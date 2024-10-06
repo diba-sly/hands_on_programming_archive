@@ -14,6 +14,7 @@
 - request/response transformations
 - logging
 - caching
+
 پس از اجراي همه ی میدلویر ها نوبت به میدلویر routing می رسد که درخواست را به controller یا Razor مربوطه انتقال می دهد.
 ### Routing Middleware
 میدلویر routing کار های زیر را انجام می دهد:
